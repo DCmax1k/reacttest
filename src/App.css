@@ -12,7 +12,7 @@ header {
   display: flex;
   position: absolute;
   top: 7.5vh;
-  left: 20px;
+  left: 40px;
   transform: translateY(-50%);
 }
 
@@ -24,6 +24,26 @@ header {
 
 .header header h1 {
   color: rgb(0, 0, 0);
-  margin-left: 5px;
+  margin-left: 20px;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.nav-links {
+  position: absolute;
+  top: 7.5vh;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links ul li {
+  margin: 100px;
+  text-decoration: underline;
+  font-size: 20px;
+  cursor: pointer;
 }
