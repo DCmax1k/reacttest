@@ -1,0 +1,29 @@
+
+
+.header {
+  height: 15vh;
+  background: linear-gradient(to right, rgb(206, 249, 255), rgb(0, 225, 255));
+  border-bottom: 2px solid black;
+  display: flex;
+  position: relative;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  top: 7.5vh;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.header header img {
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px black;
+}
+
+.header header h1 {
+  color: rgb(0, 0, 0);
+  margin-left: 5px;
+  text-shadow: 0 2px 0px white;
+}
