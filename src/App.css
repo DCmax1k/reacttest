@@ -4,6 +4,52 @@
   background: linear-gradient(white, rgb(0, 225, 255), white);
 }
 
+.home-page {
+  display: none;
+}
+
+.home-page.active {
+  display: block;
+}
+
+.areyou-page {
+  display: none;
+}
+
+.areyou-page.active {
+  display: block;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.areyou-answer {
+  margin: 20px;
+  font-size: 30px;
+}
+
+button {
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid black;
+  outline: none;
+  cursor: pointer;
+  border-radius: 999px;
+  color: white;
+  background: black;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: transparent;
+  color: black;
+  transform: scale(1.1);
+}
+
 .header {
   height: 15vh;
   background: linear-gradient(to right, rgb(206, 249, 255), rgb(0, 225, 255));
@@ -144,9 +190,8 @@ header {
   border: 2px dashed black;
   margin: 10px;
   padding: 10px;
-  text-indent: 10px;
   text-shadow: 0 1px 1px white;
-  min-height: 150px;
+  min-height: 180px;
 }
 
 .footer {
