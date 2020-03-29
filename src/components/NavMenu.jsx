@@ -4,19 +4,19 @@ const NavMenu = () => {
   function areyouLink() {
     document.querySelector('.areyou-page').classList.add('active');
     document.querySelector('.home-page').classList.remove('active');
-    // ALSO REMOVE THE IQ PAGE
+    document.querySelector('.iq-page').classList.remove('active');
   }
 
   function homeLink() {
     document.querySelector('.home-page').classList.add('active');
     document.querySelector('.areyou-page').classList.remove('active');
-    // ALSO REMOVE TEH IQ PAGE
+    document.querySelector('.iq-page').classList.remove('active');
   }
 
   function iqLink() {
-    // ADD THE IQ PAGE
-    // REMOVE HOMEPAGE AND AREYOUPAGE
-    alert('UNDER CONSTRUCTION!');
+    document.querySelector('.iq-page').classList.add('active');
+    document.querySelector('.areyou-page').classList.remove('active');
+    document.querySelector('.home-page').classList.remove('active');
   }
 
   return (

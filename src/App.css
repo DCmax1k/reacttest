@@ -27,7 +27,7 @@
   flex-direction: column;
 }
 
-.areyou-answer {
+.answer {
   margin: 20px;
   font-size: 30px;
 }
@@ -192,6 +192,14 @@ header {
   padding: 10px;
   text-shadow: 0 1px 1px white;
   min-height: 180px;
+}
+
+.iq-page {
+  display: none;
+}
+
+.iq-page.active {
+  display: block;
 }
 
 .footer {

@@ -36,7 +36,7 @@ const AreyouBody = () => {
       <Title title='Are you?' />
       <div className='button'>
         <button onClick={genAnswer}>Click here to see if you are!</button>
-        <h2 className='areyou-answer'>{answer}</h2>
+        <h2 className='answer'>{answer}</h2>
       </div>
     </div>
   );
