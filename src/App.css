@@ -92,13 +92,14 @@ header {
 }
 
 .nav-links ul li {
-  margin: 100px;
+  margin: 50px;
   text-decoration: underline;
   font-size: 20px;
   cursor: pointer;
   transition: 0.3s;
   border-bottom: 2px dashed transparent;
   border-top: 2px dashed transparent;
+  padding: 0 10px;
 }
 
 .nav-links ul li:hover {
