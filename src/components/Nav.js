@@ -1,6 +1,24 @@
 import React from 'react';
 
 const Nav = () => {
+  function areyouLink() {
+    document.querySelector('.areyou-page').classList.add('active');
+    document.querySelector('.home-page').classList.remove('active');
+    // ALSO REMOVE THE IQ PAGE
+  }
+
+  function homeLink() {
+    document.querySelector('.home-page').classList.add('active');
+    document.querySelector('.areyou-page').classList.remove('active');
+    // ALSO REMOVE THE IQ PAGE
+  }
+
+  function iqLink() {
+    // ADD THE IQ PAGE
+    // REMOVE HOMEPAGE AND AREYOUPAGE
+    alert('UNDER CONSTRUCTION!');
+  }
+
   function navMenuTog() {
     const navMenu = document.querySelector('.nav-menu');
     navMenu.classList.toggle('active');
@@ -21,21 +39,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-function areyouLink() {
-  document.querySelector('.areyou-page').classList.add('active');
-  document.querySelector('.home-page').classList.remove('active');
-  // ALSO REMOVE THE IQ PAGE
-}
-
-function homeLink() {
-  document.querySelector('.home-page').classList.add('active');
-  document.querySelector('.areyou-page').classList.remove('active');
-  // ALSO REMOVE THE IQ PAGE
-}
-
-function iqLink() {
-  // ADD THE IQ PAGE
-  // REMOVE HOMEPAGE AND AREYOUPAGE
-  alert('UNDER CONSTRUCTION!');
-}
