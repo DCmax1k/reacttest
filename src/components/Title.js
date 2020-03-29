@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Title() {
+const Title = () => {
 
     return (
         <div className="body-title">
