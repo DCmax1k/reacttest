@@ -189,7 +189,7 @@ header {
 
 .paragraph {
   border: 2px dashed black;
-  margin: 10px;
+  margin: 9px;
   padding: 10px;
   text-shadow: 0 1px 1px white;
   min-height: 180px;
