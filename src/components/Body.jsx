@@ -4,7 +4,7 @@ import Paragraph from './Paragraph';
 
 const BodyCont = () => {
   return (
-    <div>
+    <div className='home-body'>
       <Title title='Welcome to DCmax1k' />
       <div className='paragraphs'>
         <Paragraph message='One of the features of this website is to see if you are.. It used to be the only thing the website was for, but now it has grown, and the answer is now randomly generated, rather than certain answers for people. You no longer have to enter information such as your first name and last name to get an answer!' />

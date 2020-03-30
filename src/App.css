@@ -237,4 +237,16 @@ header {
   .nav-links ul {
     display: none;
   }
+
+  .paragraphs {
+    flex-direction: column;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home-body {
+    overflow: scroll;
+    height: 73vh;
+  }
 }
